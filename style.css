@@ -1,0 +1,249 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    gap:600px;
+}
+
+.top, .footer{
+    background-color: #1F2937;
+}
+
+.main{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.left p{
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 500px;
+    font-weight: bold;
+}
+
+.left button{
+    color:white;
+    background-color: #3882F6;
+    padding:4px 18px;
+    border-radius: 10%;
+    border: 0;   
+    max-width: 100px;
+}
+
+
+/*
+.right{
+    display: flex;
+    margin: auto 0px;
+    flex-shrink: 0;
+    height: 250px;
+}*/
+
+.left .main{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    
+}
+
+.left p{
+    margin:0;
+}
+.right p{
+    color: white;
+}
+/*
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 400px;
+    flex-shrink: 0;
+}*/
+
+.rr{
+    display: flex;
+    gap:20px;
+    color: white;
+    margin-right: 500px;
+}
+
+.random p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.left, .right{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 50px;
+    padding-top:50px;
+
+}
+
+
+.right{
+    width: 555px;
+    justify-content: center;
+    align-content: center;
+    background-color: grey;
+}
+
+.right p{
+    text-align: center;
+}
+
+.left{
+    max-width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    gap:10px;
+    
+}
+
+.random{
+    flex:1;
+}
+.quote{
+    flex:1;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.quote p{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color:#1F2937;
+    margin: 0;
+    margin-left: 80px;
+    margin-right: 80px;
+    flex-wrap: wrap;
+}
+
+.quote .tired{
+    text-align: end;
+    font-weight: bold;
+
+}
+
+.time{
+    display: flex;
+    flex:1;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.action{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 150px;
+    width: 1600px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    
+}
+
+.ll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+
+.action button{
+    height: 40px;
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    border-radius: 8px;
+    width:160px;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 18px;
+}
+
+.time .call{
+    font-size: 32px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.time .size{
+    margin:0;
+    font-size: 18px;
+}
+/*.right p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   width: 600px;
+   background-color: gray;
+}*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.boxes{
+    display: flex;
+    height:200px;
+    justify-content: center;
+    gap:25px;
+    flex:1;
+}
+
+.boxes .one{
+    width: 300px;
+
+}
+ .one div{
+    height: 140px;
+    border-radius: 8px;
+    border: 6px solid #3882F6;
+ } 
+.one p{
+    margin: 0;
+}
+
